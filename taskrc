@@ -23,3 +23,12 @@ javaw_run_jarfile() {
     javaw -jar "$@"
 }
 
+help_minecraft() {
+    # Get help
+
+}
+
+show_links() {
+    cat $taskrc_dir/links.txt
+}
+
