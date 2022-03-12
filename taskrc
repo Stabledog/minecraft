@@ -6,6 +6,9 @@
 
 type -t localhist_set >/dev/null && { localhist_set /c/Projects/taskrc-kit/bash_history;  echo "HISTFILE is $HISTFILE"; }
 
+export JAVA_HOME=/home/lmatheson/program-files/Microsoft/jdk-17.0.2.8-hotspot
+PATH=$PATH:/home/lmatheson/program-files/Microsoft/jdk-17.0.2.8-hotspot/bin
+
 # Use taskrc -h for help on built-in taskrc functions.
 # To provide help for definitions in this file, add #Help tags, e.g.:
 # function my_func {
@@ -23,12 +26,9 @@ javaw_run_jarfile() {
     javaw -jar "$@"
 }
 
-help_minecraft() {
-    # Get help
-
-}
 
 show_links() {
+    #Help
     cat $taskrc_dir/links.txt
 }
 

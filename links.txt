@@ -1,1 +1,3 @@
 Minecraft mods tutorial: https://minecraft.fandom.com/wiki/Tutorials/Creating_Forge_mods
+Minecraft Forge official docs: https://mcforge.readthedocs.io/en/1.18.x/
+Basic mod tutorial (hello world msg transmitter): https://medium.com/@programmingfun2017/minecraft-modding-with-forge-tutorial-hello-world-828ece8db9a2
