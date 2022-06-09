@@ -1,20 +1,14 @@
-#1647119571
-lh o
-#1647119575
-ga bash_history 
-#1647119576
+#1649518189
+./gradlew.bat genVSCodeRuns  # Initialize environment
+#1649520103
+echo "./gradlew.bat build && cp build/libs/tutorialmod-1.18.2-1.0.jar run/mods/ && ./gradlew.bat runClient  # Rebuild and run" >> taskrc 
+#1649524960
+./gradlew.bat build && cp build/libs/tutorialmod-1.18.2-1.0.jar run/mods/ && ./gradlew.bat runClient  # Rebuild and run
+#1654344328
+# Today we discovered that JustZoom depends on the author's 'Konkrete' code base!
+#1654350856
+# The keksuccino.konkrete fork in Stabledog github has my-patches branch
+#1654350992
+gco -b with-konkrete-dependency-added # We're adding the konkrete dependency to JustZoom codebase
+#1654772402
 gs
-#1647119582
-gc -m "add bash_history"
-#1647119584
-gs
-#1647119586
-git push
-#1647119637
-echo $JAVA_HOME
-#1647119637
-echo $JAVA_HOME
-#1648403120
-h
-#1648403120
-h
