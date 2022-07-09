@@ -10,5 +10,7 @@ echo "./gradlew.bat build && cp build/libs/tutorialmod-1.18.2-1.0.jar run/mods/ 
 # The keksuccino.konkrete fork in Stabledog github has my-patches branch
 #1654350992
 gco -b with-konkrete-dependency-added # We're adding the konkrete dependency to JustZoom codebase
-#1654772402
+#1657372312
 gs
+#1657372319
+ga .
