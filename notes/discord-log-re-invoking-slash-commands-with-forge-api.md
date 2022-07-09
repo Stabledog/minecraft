@@ -1,4 +1,9 @@
 (From discord KaupenHub#forge-118-help 2022-07-09)
+
+## Key ideas
+- summon a villager is done with level#addFreshEntity
+- and say can be done with Player#sendMessage i believe (edited)
+
 Stabledog — Today at 9:23 AM
 Is there an API in Forge to invoke the "slash" commands from a mod?  Any clues on invoking those existing behaviors inside an event handler?
 
